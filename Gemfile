@@ -17,6 +17,10 @@ group :production do
   gem 'pg'
 end
 #
+gem 'foreigner'
+#
+gem 'materialize-sass'
+#
 gem 'carrierwave'
 #
 gem 'net-ssh'
