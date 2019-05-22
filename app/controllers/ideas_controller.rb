@@ -10,8 +10,6 @@ class IdeasController < ApplicationController
   # GET /ideas/1
   # GET /ideas/1.json
   def show
-    @comment = @idea.comments.build
-    @comments = @idea.comments.all
   end
 
   # GET /ideas/new
